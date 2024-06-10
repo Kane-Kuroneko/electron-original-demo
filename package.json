@@ -1,0 +1,20 @@
+{
+  "name": "electron-original-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+	"build" : {
+		"appId" : "some.id",
+		
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^30.0.9",
+    "electron-builder": "^25.0.0-alpha.9"
+  }
+}
